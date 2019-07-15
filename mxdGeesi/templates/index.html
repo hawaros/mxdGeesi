@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>GSY RedovisningsByrå</title>
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+
+<body>
+	<div id="hem">hem</div>
+	<div id="tjanster">tjänster</div>
+
+
+	<nav id="navigation" class="nav navbar navbar-expand-md navbar-light fixed-top bg-white">
+		  <a id="logo" class="navbar-brand font-weight-bold" href="#">GSY Redovisningsbyrå</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a id="link-text" class="nav-link" href="#hem">Hem</a>
+		      </li>
+
+		      <li class="nav-item">
+		        <a id="link-text" class="nav-link" href="#tjanster">Tjänster</a>
+		      </li>
+
+		      <li class="nav-item">
+		        <a id="link-text" class="nav-link" href="#section-d">Kontakt</a>
+		      </li>
+
+		      <li class="nav-item">
+		        <a id="link-text" class="nav-link" href="#section-d">Om Oss</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+
+
+		<!-- Header Showcase -->
+<header id="showcase" class="grid">
+  <div class="bg-image"></div>
+  <div class="content-wrap">
+    <h1>SmåFöretagen är vår grej</h1>
+    <p>Vi gör det bra, vi gör det till ett överkomligt pris. Vi vet att priset är en viktig faktor och att kvaliteten är A och O. Vårt mål är att ge småföretagen den bästa kvaliteten till det bästa priset.
+
+    Välkommen och utforska våra prisplaner. Vi ser fram emot att samarbeta med dig.</p>
+    <a href="#tjanster" class="btn">Se prisplaner</a>
+  </div>
+</header>
+
+<!-- Main Area -->
+<main id="main">
+  <!-- Section A -->
+  <section id="section-a" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">Samarbetspartners</h2>
+      <div class="content-text">
+        <p>Förutom våra reguljära kunder, så jobbar vi även som underleverantör åt <a href="https://www.netoffice.nu">Net Office ekonomi AB</a>. Nedan kan du läsa vad de har att säga om vårt samarbete.</p>
+      </div>
+      <hr>
+      <div>
+      	<p>GSY Står för Grottmänniskans Sanna Yrke. Ni gör jobbet som om era förfäder har finslipat er arbetsmoral sedan grottmänniskans tider. Vi är glada att ha er med er och tack för deta fina jobbet ni gör. Libero vel fugiat delectus quas reprehenderit magni tenetur ducimus. Quisquam, eos?</p>
+      	<p class="text-muted">- Harry Doe (Byråledare vid Box Office)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section B -->
+  <h2 class="content-title">Tjänster</h2>
+  <section id="section-b" class="grid">
+    <ul>
+      <li>
+        <div class="card">
+          <img src="img/bokf1.jpg" alt="">
+          <div class="card-content">
+            <h3 class="card-title">Bokföring / Löner</h3>
+            <p><small>från </small>350 kr/ månad</p>
+          </div>
+          <div class="card-footer">
+          	<a href="#section-b" class="btn" data-toggle="modal" data-target="#bokforing">Läs mer</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <img src="img/appen.jpg" alt="">
+          <div class="card-content">
+            <h3 class="card-title">Deklaration</h3>
+            <p><small>från </small>350 kr/ månad</p>
+          </div>
+          <div class="card-footer">
+          	<a href="#section-b" class="btn" data-toggle="modal" data-target="#deklaration">Läs mer</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <img src="img/bokf4.jpeg" alt="">
+          <div class="card-content">
+            <h3 class="card-title">Bokslut</h3>
+            <p><small>från </small>350 kr/ månad</p>
+          </div>
+          <div class="card-footer mb-0">
+          	<a href="#section-b" class="btn" data-toggle="modal" data-target="#bokslut">Se mer info</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section C -->
+  <section id="section-c" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">Vi ger lösningar som gör ditt liv lättare</h2>
+      <p>Tveka inte att kontakta oss med dina frågor. Vår kund är småföretagaren, och vårt mål är att hjälpa dig att växa genom att göra det enkelt för dig att fokusera på just det!
+      	<span class="text-info font-weight-bold">Att utveckla ditt företag!</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- Section D -->
+  <section id="section-d" class="grid">
+    <div class="box">
+      <h2 class="content-title">Kontakta Oss</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.</p>
+      <p class="text-info font-weight-bold">
+        Mail: kontakt@företagsmail.se </br>
+        Telefon: <a class="text-info" href="tel:123-456-7890">070 100 0101</a>
+      </p>
+    </div>
+    <div class="box">
+      <h2 class="content-title">Om vårt företag</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?</p>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer id="main-footer" class="grid">
+  <div>GSY Redovisningsbyrå</div>
+  <div>&copy; 2019 GSY RB.</div>
+</footer>
+		
+
+
+<!-- MODAL Bokföring och Löner SECTION -->
+		<!-- Modal -->
+		<div class="modal fade" id="bokforing" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header border-bottom">
+		        <h5 class="modal-title" id="exampleModalLabel">Bokföring och Löner</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+            <div class="row">
+              <div class="col-3">
+                <p></p>
+                <p class="text-center"><i class="fa fa-shopping-cart fa-4x"></i></p>
+              </div>
+
+              <div class="col-9">
+                <p>Denna delen innehåller text om tjänsen och vad som ingår i den. Ett bra formulerat text kan locka många.</p>
+                  <p><button class="btn bg-success font-weight-bold" onclick="ring1()">Kontakta Oss</button>
+                    <button class="btn bg-success font-weight-bold" onclick="maila1()">Maila Oss</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer ring1 bg-info">
+            <div class="d-flex justify-content-center">
+              <div><a class="text-white" href="tel:123-456-7890">070 100 0101</a></div>
+            </div>
+          </div>
+          <div class="card-footer maila1 bg-info">
+            <div class="d-flex justify-content-center">
+              <div><a class="text-white" href="johnDoe@company.com">johnDoe@company.com</a></div>
+            </div>
+          </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+<!-- END MODAL SECTION -->
+
+<!-- MODAL Deklaration SECTION -->
+    <!-- Modal -->
+    <div class="modal fade" id="deklaration" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-bottom">
+            <h5 class="modal-title" id="exampleModalLabel">Deklaration</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-3">
+                <p></p>
+                <p class="text-center"><i class="fa fa-shopping-cart fa-4x"></i></p>
+              </div>
+
+              <div class="col-9">
+                <p>Denna delen innehåller text om tjänsen och vad som ingår i den. Ett bra formulerat text kan locka många.</p>
+                  <p><button class="btn bg-success font-weight-bold" onclick="ring2()">Kontakta Oss</button>
+                    <button class="btn bg-success font-weight-bold" onclick="maila2()">Maila Oss</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer ring2 bg-info">
+            <div class="d-flex justify-content-center">
+              <div><a class="text-white" href="tel:123-456-7890">070 100 0101</a></div>
+            </div>
+          </div>
+          <div class="card-footer maila2 bg-info">
+            <div class="d-flex justify-content-center">
+              <div><a class="text-white" href="johnDoe@company.com">johnDoe@company.com</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- END MODAL SECTION -->
+
+<!-- MODAL Bokslut SECTION -->
+    <!-- Modal -->
+    <div class="modal fade" id="bokslut" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-bottom">
+            <h5 class="modal-title" id="exampleModalLabel">Bokslut</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-3">
+                <p></p>
+                <p class="text-center"><i class="fa fa-shopping-cart fa-4x"></i></p>
+              </div>
+
+              <div class="col-9">
+                <p>Denna delen innehåller text om tjänsen och vad som ingår i den. Ett bra formulerat text kan locka många.</p>
+                  <p><button class="btn bg-success font-weight-bold" onclick="ring3()">Ring Oss</button>
+                  <button class="btn bg-success font-weight-bold" onclick="maila3()">Maila Oss</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer ring3 bg-info">
+            <div class="d-flex justify-content-center">
+              <div><a class="text-white" href="tel:123-456-7890">070 100 0101</a></div>
+            </div>
+          </div>
+          <div class="card-footer maila3 bg-info">
+            <div class="d-flex justify-content-center">
+              <div><a class="text-white" href="johnDoe@company.com">johnDoe@company.com</a></div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- END MODAL SECTION -->
+
+
+
+
+<!-- =========== Script Section =========== -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script
+		src="https://code.jquery.com/jquery-3.1.1.js"
+    	integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    	crossorigin="anonymous"></script>
+    	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    	<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+	</body>
+</html>
